@@ -117,7 +117,7 @@ body {
 }
 .head-contact {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   color: var(--pcolor);
 }
 .site-nav__link {
@@ -348,14 +348,11 @@ body {
 }
 .social {
   display: flex;
+  margin-top: 16px;
   margin-left: 32px;
   margin-right: 32px;
 }
-/* .icon-social {
-  width: 44px;
-  height: 44px;
 
-} */
 .link-social {
   display: flex;
   width: 44px;
@@ -390,9 +387,11 @@ body {
 }
 .link-clients {
   display: flex;
-  width: 170px;
+  align-items: center;
+  justify-content: center;
+ 
   height: 92px;
-  padding: 16px 32px;
+  
 
   border: 1px solid rgba(175, 177, 184, 1);
   border: 1px solid #afb1b8;
@@ -523,7 +522,7 @@ body {
 }
 .address {
   font-style: normal;
-  padding-top: 20px;
+  
 }
 .address-list {
   display: flex;
@@ -531,7 +530,7 @@ body {
   flex-direction: column;
   flex-direction: column;
   flex-direction: column;
-  width: 231px;
+  
 }
 .address-item:not(:last-child) {
   margin-bottom: 10px;
@@ -542,14 +541,14 @@ body {
 }
 .singin {
   margin-bottom: 20px;
-
+text-align: left;
   color: var(--main-bgcolor);
   text-transform: uppercase;
   font-size: 14px;
 }
 .sing-section {
   margin-left: 70px;
-  width: 80px;
+
 }
 
 .singin-list {
@@ -570,7 +569,7 @@ body {
   margin-right: 10px;
 }
 .singin-icon {
-  fill: #afb1b8;
+  fill: var(--main-bgcolor);
 
   margin: 12px 12px;
  
