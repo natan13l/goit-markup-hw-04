@@ -340,6 +340,7 @@ body {
 [lang="en"] {
   font-size: 16px;
   line-height: 1.18;
+  color: var(--pcolor);
 }
 
 .title {
@@ -349,8 +350,7 @@ body {
 .social {
   display: flex;
   margin-top: 16px;
-  margin-left: 32px;
-  margin-right: 32px;
+  justify-content: center;
 }
 
 .link-social {
